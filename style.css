@@ -1,0 +1,14 @@
+body
+{
+text-align:center;  
+}
+text { 
+ font-size: 20px;  
+ color: Green;
+} 
+.textBox { 
+ width: 150px;
+}
+#counter { 
+ width: 100px;
+}
