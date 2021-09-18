@@ -8,5 +8,5 @@ function product()
 			document.getElementById("rez1").value = num;
 	  
 	}  	  
-		else alert("Введите четырехзначное целое число!");	 				
+		else alert("Введите положительное целое четырехзначное число!");	 				
 }		
