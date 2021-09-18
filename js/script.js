@@ -1,7 +1,7 @@
 function product() 
 { 
   var temp=document.getElementById('num1').value;
-  if (temp > 999 && temp < 10000 && !isNaN(temp) && Number.isInteger(Number(temp)))	  
+  if (temp > 999 && temp < 10000 && !isNaN(temp) && Number.isInteger(Number(temp)) && temp > 0) 	  
     {		  
 			let arr = document.getElementById('num1').value.split('');
 			let num = Number(arr[0]*arr[1]*arr[2]*arr[3]);
